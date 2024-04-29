@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", sans-serif;
+}
+
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(178, 216, 154);
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+  background: linear-gradient(
+    135deg,
+    rgba(50, 70, 155, 0.826),
+    rgba(72, 20, 145, 0.801)
+  );
+}
+
+.glass {
+  width: 100vw;
+  height: 10vh;
+  background: linear-gradient(
+    135deg,
+    rgb(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.591);
+  text-align: center;
+  padding-top: 2.5vh;
+  font-size: 1.8rem;
+  letter-spacing: 3px;
+  font-weight: 700;
+  color: #ffea00;
+}
+
+p {
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.942);
+}
+
+.bloco-valores {
+  width: 75%;
+  height: 240px;
+  background-color: #0505008e;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.text-position {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  margin-right: 3.5%;
+}
+
+#input {
+  background-color: #ffffff;
+  width: 80%;
+  height: 40px;
+  margin-top: 20px;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding-left: 10px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.title-roteamento {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.bloco-router {
+  width: 80%;
+  height: 130px;
+  margin: auto;
+  margin-top: 16px;
+  padding: 5px;
+}
+
+button {
+  width: 100%;
+  height: 55px;
+  border-radius: 15px;
+  border: 2px solid black;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgb(0, 132, 255) 100%
+  );
+  margin: 4px;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #ffffffd2;
+}
+
+button:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(255, 238, 0) 0%,
+    rgba(183, 200, 0, 0.868) 35%,
+    rgb(245, 237, 125) 100%
+  );
+  color: #111;
+  transition: all 1s;
+}
+
+footer {
+  width: 100vw;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.965);
+  margin-top: 20px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.text-footer {
+  color: #ffffffb1;
+}
